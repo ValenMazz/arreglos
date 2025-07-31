@@ -36,6 +36,7 @@ for (let index = 0; index < numero2.length; index++) {
 console.log(suma);
 */
 
+/*
 let animales = ['gato', 'perro', 'loro', 'conejo']
 
 for (let i = 0; i < animales.length; i++) {
@@ -79,3 +80,36 @@ let suma1 = notas.reduce((acc, nota) => acc + nota, 0);
 let promedio = suma1 / notas.length;
 
 console.log("El promedio es " + promedio);
+*/
+
+let estudiantesIVT =[{
+  nombre: 'benja',
+  edead: 16,
+  nota: 3
+},
+{
+  nombre:'juana',
+  edad: 16,
+  nota: 6
+},
+{
+  nombre: 'alejo',
+  edad: 16,
+  nota: 7
+},
+{
+  nombre: 'facundo',
+  edad: 16,
+  nota: 3
+},
+{
+  nombre: 'lucho',
+  edad: 16,
+  nota: 7
+}
+]
+
+for (let indice = 0; indice < estudiantesIVT.length; indice++) {
+  console.log(estudiantesIVT[indice].edad +'te sacaste un'+ estudiantesIVT.nota)
+  
+}
